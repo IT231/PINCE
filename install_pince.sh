@@ -71,9 +71,9 @@ install_scanmem() {
     return 0
 }
 
-OS_NAME="Debian"
-PKG_MGR="apt-get"
-INSTALL_COMMAND="install"
+OS_NAME="Arch"
+PKG_MGR="pacman"
+INSTALL_COMMAND="-S"
 
 
 PKG_NAMES_ALL="python3-pip gdb libtool intltool"
